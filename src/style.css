@@ -36,6 +36,9 @@ button {
     border: 0;
     background: none;
     cursor: pointer;
+    @media screen and (min-width: 801px) {
+        display: none;
+    }
 }
 
 button:hover,
@@ -48,6 +51,9 @@ nav {
     inset: 10%;
     background-color: white;
     display: none;
+    @media screen and (min-width: 801px) {
+        display: block;
+    }
 }
 
 nav ul {
