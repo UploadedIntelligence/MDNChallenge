@@ -52,7 +52,7 @@ nav {
     background-color: white;
     display: none;
     @media screen and (min-width: 801px) {
-        display: block;
+        display: flex;
         position: sticky;
         top: 10px
     }
@@ -67,6 +67,10 @@ nav ul {
     display: flex;
     gap: 10px;
     flex-direction: column;
+    @media screen and (min-width: 801px) {
+        flex-direction: row;
+        width: 100%;
+    }
 }
 
 nav li {
