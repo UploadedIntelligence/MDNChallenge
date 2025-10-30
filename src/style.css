@@ -97,3 +97,7 @@ nav a:focus {
     margin: 8px 30px 20px 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
