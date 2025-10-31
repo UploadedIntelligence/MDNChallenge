@@ -81,6 +81,10 @@ nav ul {
 
 nav li {
     flex: 1;
+
+    @media screen and (min-width: 1001px) {
+        flex: 0;
+    }
 }
 
 nav a {
@@ -130,6 +134,7 @@ li a {
     @media screen and (min-width: 801px) {
         display: grid;
         grid-template-columns: 3fr 1fr;
+        gap: 20px;
 
         nav {
             grid-column: 1;
