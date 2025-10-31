@@ -56,6 +56,9 @@ nav {
         position: sticky;
         top: 10px
     }
+    @media screen and (min-width: 1001px) {
+        position: static;
+    }
 }
 
 nav ul {
@@ -70,6 +73,9 @@ nav ul {
     @media screen and (min-width: 801px) {
         flex-direction: row;
         width: 100%;
+    }
+    @media screen and (min-width: 1001px) {
+        flex-direction: column;
     }
 }
 
